@@ -1,0 +1,1 @@
+O objetivo deste repositório é resolver alguns exercicíos de programação, em diferentes níveis, afim de mostrar um pouco das minhas habilidades tecnicas.
