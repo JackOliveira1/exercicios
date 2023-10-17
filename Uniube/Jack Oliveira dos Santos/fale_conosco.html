@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Contato - Santos Barbearia</title>
+
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="index.css">
+	</head>
+	<body>
+		<header>
+			<div class="caixa">
+				<a href="https://uniube.br/" target="_blank">
+					<h1 class="logo"><img src="imagens\logo_azul.svg"></h1>
+				</a>
+				<nav>
+					<ul>
+						<li><a href="index.html">Inicio</a></li>
+						<li><a href="produtos.html">Produtos</a></li>
+						<li><a href="imagens.html">Imagens</a></li>
+						<li><a href="links.html">Links</a></li>
+						<li><a href="fale_conosco.html">Contato</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<main>
+			<form>
+				<label for="nomesobrenome">Nome e sobrenome</label>
+				<input type="text" id="nomesobrenome" class="input-padrao" required placeholder="NOME COMPLETO">
+
+				<label for="telefone">Telefone</label>
+				<input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+				<label for="mensagem">Serviço desejado</label>
+				<textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+
+				<fieldset>
+					<legend>Como prefere o nosso contato?</legend>
+					
+					<label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone"> Ligação</label>
+					
+					<label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> WhatsApp</label>
+				</fieldset>
+
+				<fieldset>
+					<legend>Qual horário prefere ser atendido?</legend>
+					<select>
+						<option>Manhã</option>
+						<option>Tarde</option>
+						<option>Noite</option>
+					</select>
+				</fieldset>
+
+				<label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
+
+				<button type="submit">Enviar Formulário</button>
+			</form>
+		</main>
+
+        <footer>
+            <img src="imagens\hairstyle.png">
+            <p class="copyright">&copy; Copyright Jack Oliveira - 2023</p>
+        </footer>
+	</body>
+</html>
